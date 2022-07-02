@@ -1,0 +1,47 @@
+<html><head>
+<title>Test results, pjs</title>
+</head>
+<body bgcolor='white'>
+<a name='tippy_top'></a>
+<h2>Test results, pjs</h2><br>
+<p class='results_summary'>
+Test List: ./<br>
+Skip List: Date.skip<br>
+3 test(s) selected, 3 test(s) completed, 1 failures reported (33.33% failed)<br>
+Engine command line: pjs -f pjs_init.js <br>
+OS type: Linux hepicik 2.6.20-15-386 #2 Sun Apr 15 07:34:00 UTC 2007 i686 GNU/Linux<br>
+Testcase execution time: 1 seconds.<br>
+Tests completed on Thu Aug  9 21:40:33 2007.<br><br>
+[ <a href='#fail_detail'>Failure Details</a> | <a href='#retest_list'>Retest List</a> | <a href='http://lxr.mozilla.org/mozilla/source/js/tests/menu.html'>Test Selection Page</a> ]<br>
+<hr>
+<a name='fail_detail'></a>
+<h2>Failure Details</h2><br>
+<dl><dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/./ecma_3/template.js'>./ecma_3/template.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+PjsUndefined<br>
+TypeError: match is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_12' pc 6856 (EVAL_3:1871)<br>
+called from Sub '@func_0_0' pc 200 (EVAL_5:80)<br>
+called from Sub '@func_0' pc 151 (EVAL_5:55)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+</dl>
+[ <a href='#tippy_top'>Top of Page</a> | <a href='#fail_detail'>Top of Failures</a> ]<br>
+<hr>
+<a name='retest_list'></a>
+<h2>Retest List</h2><br>
+<pre>
+# Retest List, pjs, generated Thu Aug  9 21:40:33 2007.
+FAILURE: # Original test base was: ./.
+FAILURE: # 3 of 3 test(s) were completed, 1 failures reported.
+FAILURE: Engine command line: pjs -f pjs_init.js <br>
+FAILURE: ./ecma_3/template.js
+</pre>
+[ <a href='#tippy_top'>Top of Page</a> | <a href='#retest_list'>Top of Retest List</a> ]<br>
+</body>

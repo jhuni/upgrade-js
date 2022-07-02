@@ -1,0 +1,82 @@
+<script type="text/javascript">
+<!--
+
+
+String.prototype.split = function(separator, limit) {
+	if( separator === undefined || separator === null ) {
+		return [this+''];
+	}
+
+	var rval = [''];
+
+	var currentIndex = 0;
+	var i = 0;
+	var self = this;
+	var len = this.length;
+
+	var checkCurrentString = function() {
+
+		var splitIndex = 0;
+		for( ; splitIndex < separator.length; splitIndex++ ) {	
+			if( self.charAt(i+splitIndex) != separator.charAt(splitIndex) ) {
+				return -1;
+			}
+		}
+		return splitIndex;
+
+	};
+
+	while (i < len) {
+		
+		var mymatch = checkCurrentString();
+		if( mymatch != -1 ) {
+			if( mymatch === 0 ) {
+				rval[currentIndex] = this.charAt(i);	
+				currentIndex++;				
+				i++;
+				if( i == this.length ) { 
+					return rval;
+				}
+				continue;
+			}			
+
+			currentIndex++;
+			rval[currentIndex] = '';
+			i += mymatch;
+			continue;
+		}
+	
+		rval[currentIndex] += this.charAt(i);
+		i++;
+	}
+	
+	return rval;
+	
+};
+
+
+
+
+var ok = function(conditional, report) {
+
+	if( conditional ) {
+		document.writeln( "Success: " + report + "<br />" );
+	} else {
+		document.writeln( "<span style='color:red'>Failed:</span> " + report + "<br />" );
+	}
+
+}
+
+ok( "a b c d".split(" ").join(",") === "a,b,c,d", 'Split Test With A Small Separator' );
+ok( "Jan  Feb   Mar    Apr May Jun Jul Aug Sep Oct Nov Dec".split("  ").join(",") === "Jan,Feb, Mar,,Apr May Jun Jul Aug Sep Oct Nov Dec", 'Split Test With Larger Seperator' );
+ok( "a b c d".split('').join(",") === "a, ,b, ,c, ,d", 'Split Test With A Blank String' );
+ok( "a b c d".split()[0] === "a b c d", 'Split Test With No Arguments' );
+ok( "a b c d".split(null).toString() === "a b c d".split(undefined).toString(), 'null works similarily to undefined' );
+
+ok( "a:b:cc:d".split(":",3).toString() === 'a,b,cc', 'Works with limits' );
+ok( "a--b--c--d--e--f--g".split("--",4).toString() === 'a,b,c,d', 'Works with limits and larger separators' );
+
+
+
+//-->
+</script>

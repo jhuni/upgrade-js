@@ -1,0 +1,2067 @@
+<html><head>
+<title>Test results, pjs</title>
+</head>
+<body bgcolor='white'>
+<a name='tippy_top'></a>
+<h2>Test results, pjs</h2><br>
+<p class='results_summary'>
+Test List: ecma/Date/<br>
+Skip List: (none)<br>
+150 test(s) selected, 150 test(s) completed, 138 failures reported (92% failed)<br>
+Engine command line: pjs -f pjs_init.js <br>
+OS type: Linux hepicik 2.6.20-15-386 #2 Sun Apr 15 07:34:00 UTC 2007 i686 GNU/Linux<br>
+Testcase execution time: 8 minutes, 14 seconds.<br>
+Tests completed on Thu Aug  9 21:21:56 2007.<br><br>
+[ <a href='#fail_detail'>Failure Details</a> | <a href='#retest_list'>Retest List</a> | <a href='http://lxr.mozilla.org/mozilla/source/js/tests/menu.html'>Test Selection Page</a> ]<br>
+<hr>
+<a name='fail_detail'></a>
+<h2>Failure Details</h2><br>
+<dl><dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.js'>ecma/Date/15.9.5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date.prototype.getClass = [object Object] FAILED! expected: [object Date]<br>
+Date.prototype.valueOf() = [object Object] FAILED! expected: NaN<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-7.js'>ecma/Date/15.9.5.21-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 379 (EVAL_5:115)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-3.js'>ecma/Date/15.9.5.13-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+PjsUndefined<br>
+TypeError: getUTCDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-1.js'>ecma/Date/15.9.5.24-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 451 (EVAL_5:129)<br>
+called from Sub '@func_0' pc 302 (EVAL_5:80)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-6.js'>ecma/Date/15.9.5.10-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 752 (EVAL_5:183)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.11-2.js'>ecma/Date/15.9.5.11-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.11 Date.prototype.getUTCDate()<br>
+PjsUndefined<br>
+TypeError: getUTCDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-6.js'>ecma/Date/15.9.5.21-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 379 (EVAL_5:115)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.27-1.js'>ecma/Date/15.9.5.27-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.27-1 Date.prototype.setUTCSeconds(sec [,ms] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_31' pc 10026 (EVAL_3:2995)<br>
+called from Sub '@func_0_5' pc 4739 (EVAL_5:955)<br>
+called from Sub '@func_0' pc 335 (EVAL_5:86)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.8-2.js'>ecma/Date/15.9.3.8-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.8 Date constructor:  new Date( value )<br>
+PjsUndefined<br>
+TypeError: toUTCString is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 553 (EVAL_5:148)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-4.js'>ecma/Date/15.9.5.24-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 451 (EVAL_5:129)<br>
+called from Sub '@func_0' pc 302 (EVAL_5:80)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.2.2-2.js'>ecma/Date/15.9.2.2-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date(1999,11,15,59,59) = undefined FAILED! expected: [object Object]<br>
+Date(1999,11,16,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1999,11,31,23,59,59) = undefined FAILED! expected: [object Object]<br>
+Date(2000,0,1,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2000,0,1,0,0,1) = undefined FAILED! expected: [object Object]<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.2.2-3.js'>ecma/Date/15.9.2.2-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date(1899,11,31,23,59,59) = undefined FAILED! expected: [object Object]<br>
+Date(1900,0,1,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1900,0,1,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(1899,11,31,16,0,0,0) = undefined FAILED! expected: [object Object]<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-7.js'>ecma/Date/15.9.5.13-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+PjsUndefined<br>
+TypeError: getUTCDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.8-1.js'>ecma/Date/15.9.3.8-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.8 Date constructor:  new Date( value )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 2207 (EVAL_5:554)<br>
+called from Sub '@func_0' pc 784 (EVAL_5:209)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-8.js'>ecma/Date/15.9.5.24-8.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 453 (EVAL_5:130)<br>
+called from Sub '@func_0' pc 304 (EVAL_5:81)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.31-1.js'>ecma/Date/15.9.5.31-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.31-1 Date.prototype.setUTCHours(hour [, min [, sec [, ms ]]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_31' pc 10026 (EVAL_3:2995)<br>
+called from Sub '@func_0_5' pc 5422 (EVAL_5:1112)<br>
+called from Sub '@func_0' pc 357 (EVAL_5:92)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.37-5.js'>ecma/Date/15.9.5.37-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.37-1 Date.prototype.setUTCFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_32' pc 10517 (EVAL_3:3130)<br>
+called from Sub '@func_0_5' pc 4096 (EVAL_5:832)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.8.js'>ecma/Date/15.9.5.8.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.8 Date.prototype.getMonth()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.2-3.js'>ecma/Date/15.9.3.2-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 Date( year, month, date, hours, minutes, seconds )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 1802 (EVAL_5:468)<br>
+called from Sub '@func_0' pc 669 (EVAL_5:181)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-2.js'>ecma/Date/15.9.5.12-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+PjsUndefined<br>
+TypeError: getDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 586 (EVAL_5:159)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.2.2-4.js'>ecma/Date/15.9.2.2-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date( 2000,1,29,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date( 2000,1,28,23,59,59) = undefined FAILED! expected: [object Object]<br>
+Date( 2000,1,27,16,0,0) = undefined FAILED! expected: [object Object]<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.2.js'>ecma/Date/15.9.5.2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.2 Date.prototype.toString<br>
+PjsUndefined<br>
+TypeError: parse is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 348 (EVAL_5:86)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-11.js'>ecma/Date/15.9.5.23-11.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 525 (EVAL_5:150)<br>
+called from Sub '@func_0' pc 327 (EVAL_5:88)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.8-5.js'>ecma/Date/15.9.3.8-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.8 Date constructor:  new Date( value )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 2904 (EVAL_5:688)<br>
+called from Sub '@func_0' pc 852 (EVAL_5:227)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.26-1.js'>ecma/Date/15.9.5.26-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.26-1 Date.prototype.setSeconds(sec [,ms] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_31' pc 10026 (EVAL_3:2995)<br>
+called from Sub '@func_0_5' pc 4768 (EVAL_5:960)<br>
+called from Sub '@func_0' pc 335 (EVAL_5:86)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-7.js'>ecma/Date/15.9.5.24-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 453 (EVAL_5:130)<br>
+called from Sub '@func_0' pc 304 (EVAL_5:81)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-11.js'>ecma/Date/15.9.5.10-11.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 808 (EVAL_5:192)<br>
+called from Sub '@func_0' pc 269 (EVAL_5:75)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.15.js'>ecma/Date/15.9.5.15.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.15 Date.prototype.getUTCHours()<br>
+PjsUndefined<br>
+TypeError: getUTCHours is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 778 (EVAL_5:187)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.37-1.js'>ecma/Date/15.9.5.37-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.37-1 Date.prototype.setUTCFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_32' pc 10517 (EVAL_3:3130)<br>
+called from Sub '@func_0_5' pc 4504 (EVAL_5:895)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-6.js'>ecma/Date/15.9.5.23-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-2 Date.prototype.setTime()<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 734 (EVAL_5:193)<br>
+called from Sub '@func_0' pc 392 (EVAL_5:107)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.4.2-1.js'>ecma/Date/15.9.4.2-1.js</a> failed</b> <a href='https://bugzilla.mozilla.org/show_bug.cgi?id=4088' target='other_window'>Bug Number 4088</a><br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+new Date('1/1/1999 13:30 AM') = [object Object] FAILED! expected: Invalid Date<br>
+new Date('1/1/1999 13:30 PM') = [object Object] FAILED! expected: Invalid Date<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-3.js'>ecma/Date/15.9.5.10-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 752 (EVAL_5:183)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-7.js'>ecma/Date/15.9.5.12-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+PjsUndefined<br>
+TypeError: getDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 586 (EVAL_5:159)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-4.js'>ecma/Date/15.9.5.23-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-2 Date.prototype.setTime()<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 734 (EVAL_5:193)<br>
+called from Sub '@func_0' pc 392 (EVAL_5:107)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.36-7.js'>ecma/Date/15.9.5.36-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.36-1 Date.prototype.setFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_5' pc 3847 (EVAL_5:780)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-2.js'>ecma/Date/15.9.5.21-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 379 (EVAL_5:115)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.19.js'>ecma/Date/15.9.5.19.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.19 Date.prototype.getUTCSeconds()<br>
+PjsUndefined<br>
+TypeError: getUTCSeconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 786 (EVAL_5:187)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.35-1.js'>ecma/Date/15.9.5.35-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.35-1 Date.prototype.setUTCMonth(mon [,date] ) <br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_32' pc 10517 (EVAL_3:3130)<br>
+called from Sub '@func_0_5' pc 3984 (EVAL_5:800)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.14.js'>ecma/Date/15.9.5.14.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.14 Date.prototype.getHours()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-8.js'>ecma/Date/15.9.5.10-8.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 808 (EVAL_5:192)<br>
+called from Sub '@func_0' pc 269 (EVAL_5:75)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.8-3.js'>ecma/Date/15.9.3.8-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.8 Date constructor:  new Date( value )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 2970 (EVAL_5:704)<br>
+called from Sub '@func_0' pc 846 (EVAL_5:225)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.30-1.js'>ecma/Date/15.9.5.30-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.30-1 Date.prototype.setHours( hour [, min, sec, ms] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_31' pc 10026 (EVAL_3:2995)<br>
+called from Sub '@func_0_5' pc 4837 (EVAL_5:1020)<br>
+called from Sub '@func_0_0' pc 1072 (EVAL_5:281)<br>
+called from Sub '@func_0' pc 337 (EVAL_5:86)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.36-3.js'>ecma/Date/15.9.5.36-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.36-1 Date.prototype.setFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_5' pc 3847 (EVAL_5:780)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.34-1.js'>ecma/Date/15.9.5.34-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.34-1 Date.prototype.setMonth(mon [, date ] )<br>
+TypeError: can't convert undefined to object<br>
+current instr.: '__toObject__' pc 218 (languages/pjs/lib/jscore_includes/conversions.pir:82)<br>
+called from Sub '@func_0_1' pc 3034 (EVAL_5:557)<br>
+called from Sub '@func_0' pc 326 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-10.js'>ecma/Date/15.9.5.23-10.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 525 (EVAL_5:150)<br>
+called from Sub '@func_0' pc 327 (EVAL_5:88)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.18.js'>ecma/Date/15.9.5.18.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.18 Date.prototype.getSeconds()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.37-3.js'>ecma/Date/15.9.5.37-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.37-1 Date.prototype.setUTCFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_32' pc 10517 (EVAL_3:3130)<br>
+called from Sub '@func_0_5' pc 4228 (EVAL_5:877)<br>
+called from Sub '@func_0' pc 546 (EVAL_5:137)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.28-1.js'>ecma/Date/15.9.5.28-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.28-1 Date.prototype.setMinutes(sec [,ms] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_31' pc 10026 (EVAL_3:2995)<br>
+called from Sub '@func_0_5' pc 5228 (EVAL_5:1065)<br>
+called from Sub '@func_0' pc 350 (EVAL_5:90)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-5.js'>ecma/Date/15.9.5.12-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+PjsUndefined<br>
+TypeError: getDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 586 (EVAL_5:159)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-16.js'>ecma/Date/15.9.5.23-16.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 536 (EVAL_5:149)<br>
+called from Sub '@func_0' pc 338 (EVAL_5:87)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.2.2-5.js'>ecma/Date/15.9.2.2-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date(2004,11,31,23,59,59) = undefined FAILED! expected: [object Object]<br>
+Date(2005,0,1,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2005,0,1,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(2004,11,31,16,0,0,0) = undefined FAILED! expected: [object Object]<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.9.js'>ecma/Date/15.9.5.9.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.9 Date.prototype.getUTCMonth()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.2-2-n.js'>ecma/Date/15.9.5.2-2-n.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 1, got 0<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.2-2 Date.prototype.toString<br>
+var OBJ = new MyObject( new Date(0) ); OBJ.toString() = [object Object] FAILED! expected: error<br>
+jstest: ecma/Date/15.9.5.2-2-n.js bug:  result: FAILED type: shell description: var OBJ = new MyObject( new Date(0) ); OBJ.toString() expected: error actual: [object Object] reason: wrong value <br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.33-1.js'>ecma/Date/15.9.5.33-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.33-1 Date.prototype.setUTCDate(date) <br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_32' pc 10517 (EVAL_3:3130)<br>
+called from Sub '@func_0_5' pc 3882 (EVAL_5:773)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.2.1.js'>ecma/Date/15.9.2.1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date(1970,0,1,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1969,11,31,15,59,59,999) = undefined FAILED! expected: [object Object]<br>
+Date(1969,11,31,16,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1969,11,31,16,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(1999,11,15,59,59,999) = undefined FAILED! expected: [object Object]<br>
+Date(1999,11,16,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1999,11,31,23,59,59,999) = undefined FAILED! expected: [object Object]<br>
+Date(2000,0,1,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2000,0,1,0,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(1899,11,31,23,59,59,999) = undefined FAILED! expected: [object Object]<br>
+Date(1900,0,1,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1900,0,1,0,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(1899,11,31,16,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date( 2000,1,29,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date( 2000,1,28,23,59,59,999) = undefined FAILED! expected: [object Object]<br>
+Date( 2000,1,27,16,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2004,11,31,23,59,59,999) = undefined FAILED! expected: [object Object]<br>
+Date(2005,0,1,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2005,0,1,0,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(2004,11,31,16,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2031,11,31,23,59,59,999) = undefined FAILED! expected: [object Object]<br>
+Date(2032,0,1,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2032,0,1,0,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(2031,11,31,16,0,0,0,0) = undefined FAILED! expected: [object Object]<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.3-1-n.js'>ecma/Date/15.9.5.3-1-n.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 1, got 0<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.3-1-n Date.prototype.valueOf<br>
+var OBJ = new MyObject( new Date(0) ); OBJ.valueOf() = [object Object] FAILED! expected: error<br>
+jstest: ecma/Date/15.9.5.3-1-n.js bug:  result: FAILED type: shell description: var OBJ = new MyObject( new Date(0) ); OBJ.valueOf() expected: error actual: [object Object] reason: wrong value <br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.1-3.js'>ecma/Date/15.9.3.1-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 new Date( year, month, date, hours, minutes, seconds, ms )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 1542 (EVAL_5:401)<br>
+called from Sub '@func_0' pc 698 (EVAL_5:185)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-3.js'>ecma/Date/15.9.5.21-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 379 (EVAL_5:115)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-2.js'>ecma/Date/15.9.5.13-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+PjsUndefined<br>
+TypeError: getUTCDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.36-4.js'>ecma/Date/15.9.5.36-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.36-1 Date.prototype.setFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_5' pc 3847 (EVAL_5:780)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.36-1.js'>ecma/Date/15.9.5.36-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.36-1 Date.prototype.setFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_5' pc 3847 (EVAL_5:780)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-5.js'>ecma/Date/15.9.5.24-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 453 (EVAL_5:130)<br>
+called from Sub '@func_0' pc 304 (EVAL_5:81)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.37-4.js'>ecma/Date/15.9.5.37-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.37-1 Date.prototype.setUTCFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_32' pc 10517 (EVAL_3:3130)<br>
+called from Sub '@func_0_5' pc 4096 (EVAL_5:832)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.1.1-2.js'>ecma/Date/15.9.1.1-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.8.1.1 Time Range<br>
+PjsUndefined<br>
+TypeError: getUTCFullYear is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 304 (EVAL_5:96)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.17.js'>ecma/Date/15.9.5.17.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.17 Date.prototype.getUTCMinutes()<br>
+PjsUndefined<br>
+TypeError: getUTCMinutes is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 786 (EVAL_5:187)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-7.js'>ecma/Date/15.9.5.10-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 752 (EVAL_5:183)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.3-2.js'>ecma/Date/15.9.5.3-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+(new Date([object Object]).valueOf() = [object Object] FAILED! expected: [object Object]<br>
+(new Date([object Object]1).valueOf() = [object Object] FAILED! expected: [object Object]1<br>
+(new Date(NaN).valueOf() = [object Object] FAILED! expected: NaN<br>
+(new Date(NaN).valueOf() = [object Object] FAILED! expected: NaN<br>
+(new Date([object Object]0).valueOf() = [object Object] FAILED! expected: [object Object]0<br>
+(new Date(0).valueOf() = [object Object] FAILED! expected: 0<br>
+(new Date(1).valueOf() = [object Object] FAILED! expected: 1<br>
+(new Date(-1).valueOf() = [object Object] FAILED! expected: -1<br>
+(new Date(0).valueOf() = [object Object] FAILED! expected: 0<br>
+(new Date(0).valueOf() = [object Object] FAILED! expected: 0<br>
+(new Date(-2208988800000).valueOf() = [object Object] FAILED! expected: -2208988800000<br>
+(new Date(-2208988799999).valueOf() = [object Object] FAILED! expected: -2208988799999<br>
+(new Date(-2208988800001).valueOf() = [object Object] FAILED! expected: -2208988800001<br>
+(new Date(-2208988800000).valueOf() = [object Object] FAILED! expected: -2208988800000<br>
+(new Date(-2208988800000).valueOf() = [object Object] FAILED! expected: -2208988800000<br>
+(new Date(946684800000).valueOf() = [object Object] FAILED! expected: 946684800000<br>
+(new Date(946684800001).valueOf() = [object Object] FAILED! expected: 946684800001<br>
+(new Date(946684799999).valueOf() = [object Object] FAILED! expected: 946684799999<br>
+(new Date(946684800000).valueOf() = [object Object] FAILED! expected: 946684800000<br>
+(new Date(946684800000).valueOf() = [object Object] FAILED! expected: 946684800000<br>
+(new Date(951782400000).valueOf() = [object Object] FAILED! expected: 951782400000<br>
+(new Date(951782400001).valueOf() = [object Object] FAILED! expected: 951782400001<br>
+(new Date(951782399999).valueOf() = [object Object] FAILED! expected: 951782399999<br>
+(new Date(951782400000).valueOf() = [object Object] FAILED! expected: 951782400000<br>
+(new Date(951782400000).valueOf() = [object Object] FAILED! expected: 951782400000<br>
+(new Date(1104537600000).valueOf() = [object Object] FAILED! expected: 1104537600000<br>
+(new Date(1104537600001).valueOf() = [object Object] FAILED! expected: 1104537600001<br>
+(new Date(1104537599999).valueOf() = [object Object] FAILED! expected: 1104537599999<br>
+(new Date(1104537600000).valueOf() = [object Object] FAILED! expected: 1104537600000<br>
+(new Date(1104537600000).valueOf() = [object Object] FAILED! expected: 1104537600000<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.1-2.js'>ecma/Date/15.9.3.1-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 new Date( year, month, date, hours, minutes, seconds, ms )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 2222 (EVAL_5:563)<br>
+called from Sub '@func_0' pc 716 (EVAL_5:190)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-4.js'>ecma/Date/15.9.5.12-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+PjsUndefined<br>
+TypeError: getDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 586 (EVAL_5:159)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.29-1.js'>ecma/Date/15.9.5.29-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.29-1 Date.prototype.setUTCMinutes( min [, sec, ms] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_31' pc 10026 (EVAL_3:2995)<br>
+called from Sub '@func_0_5' pc 4985 (EVAL_5:1018)<br>
+called from Sub '@func_0' pc 350 (EVAL_5:90)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-5.js'>ecma/Date/15.9.5.13-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+PjsUndefined<br>
+TypeError: getUTCDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-8.js'>ecma/Date/15.9.5.13-8.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+PjsUndefined<br>
+TypeError: getUTCDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 223 (EVAL_5:67)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-5.js'>ecma/Date/15.9.5.10-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 752 (EVAL_5:183)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-2.js'>ecma/Date/15.9.5.23-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-2 Date.prototype.setTime()<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 719 (EVAL_5:190)<br>
+called from Sub '@func_0' pc 377 (EVAL_5:104)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.11-1.js'>ecma/Date/15.9.5.11-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.11 Date.prototype.getUTCDate()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.1-1.js'>ecma/Date/15.9.3.1-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 new Date( year, month, date, hours, minutes, seconds, ms )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 8698 (EVAL_5:2096)<br>
+called from Sub '@func_0' pc 716 (EVAL_5:190)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-5.js'>ecma/Date/15.9.5.21-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 379 (EVAL_5:115)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-6.js'>ecma/Date/15.9.5.12-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+PjsUndefined<br>
+TypeError: getDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 586 (EVAL_5:159)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.11-6.js'>ecma/Date/15.9.5.11-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.11 Date.prototype.getUTCDate()<br>
+PjsUndefined<br>
+TypeError: getUTCDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.4.3.js'>ecma/Date/15.9.4.3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+PjsUndefined<br>
+TypeError: UTC is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 236 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-2.js'>ecma/Date/15.9.5.24-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 462 (EVAL_5:133)<br>
+called from Sub '@func_0' pc 313 (EVAL_5:84)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-4.js'>ecma/Date/15.9.5.10-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 752 (EVAL_5:183)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-1.js'>ecma/Date/15.9.5.10-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.1-4.js'>ecma/Date/15.9.3.1-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 new Date( year, month, date, hours, minutes, seconds, ms )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 2222 (EVAL_5:563)<br>
+called from Sub '@func_0' pc 698 (EVAL_5:185)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.11-3.js'>ecma/Date/15.9.5.11-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.11 Date.prototype.getUTCDate()<br>
+PjsUndefined<br>
+TypeError: getUTCDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-2.js'>ecma/Date/15.9.5.10-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 752 (EVAL_5:183)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.32-1.js'>ecma/Date/15.9.5.32-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.32-1 Date.prototype.setDate(date) <br>
+PjsUndefined<br>
+TypeError: setDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 480 (EVAL_5:137)<br>
+called from Sub '@func_0' pc 319 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-3.js'>ecma/Date/15.9.5.24-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 462 (EVAL_5:133)<br>
+called from Sub '@func_0' pc 313 (EVAL_5:84)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.8-4.js'>ecma/Date/15.9.3.8-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.8 Date constructor:  new Date( value )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 2886 (EVAL_5:683)<br>
+called from Sub '@func_0' pc 834 (EVAL_5:222)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.2.2-6.js'>ecma/Date/15.9.2.2-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date(2031,11,31,23,59,59) = undefined FAILED! expected: [object Object]<br>
+Date(2032,0,1,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(2032,0,1,0,0,1) = undefined FAILED! expected: [object Object]<br>
+Date(2031,11,31,16,0,0,0) = undefined FAILED! expected: [object Object]<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.4.2.js'>ecma/Date/15.9.4.2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.4.2 Date.parse()<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 5575 (EVAL_5:1388)<br>
+called from Sub '@func_0' pc 666 (EVAL_5:179)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-9.js'>ecma/Date/15.9.5.23-9.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-2 Date.prototype.setTime()<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 568 (EVAL_5:169)<br>
+called from Sub '@func_0' pc 392 (EVAL_5:107)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-3.js'>ecma/Date/15.9.5.12-3.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+PjsUndefined<br>
+TypeError: getDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 586 (EVAL_5:159)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.2-1.js'>ecma/Date/15.9.5.2-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.2 Date.prototype.toString<br>
+PjsUndefined<br>
+TypeError: parse is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 348 (EVAL_5:86)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-1.js'>ecma/Date/15.9.5.12-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.1.1-1.js'>ecma/Date/15.9.1.1-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.8.1.1 Time Range<br>
+PjsUndefined<br>
+TypeError: getUTCFullYear is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 281 (EVAL_5:88)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.25-1.js'>ecma/Date/15.9.5.25-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.25-1 Date.prototype.setUTCMilliseconds(ms)<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_31' pc 10026 (EVAL_3:2995)<br>
+called from Sub '@func_0_5' pc 4872 (EVAL_5:977)<br>
+called from Sub '@func_0' pc 326 (EVAL_5:84)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-6.js'>ecma/Date/15.9.5.13-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+PjsUndefined<br>
+TypeError: getUTCDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.5.js'>ecma/Date/15.9.5.5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.5 Date.prototype.getYear()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-14.js'>ecma/Date/15.9.5.23-14.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-14 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 514 (EVAL_5:146)<br>
+called from Sub '@func_0' pc 316 (EVAL_5:84)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-4.js'>ecma/Date/15.9.5.21-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 379 (EVAL_5:115)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.2-5.js'>ecma/Date/15.9.3.2-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 Date( year, month, date, hours, minutes, seconds )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 1206 (EVAL_5:323)<br>
+called from Sub '@func_0' pc 705 (EVAL_5:189)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.2-2.js'>ecma/Date/15.9.3.2-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 Date( year, month, date, hours, minutes, seconds )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 1456 (EVAL_5:381)<br>
+called from Sub '@func_0' pc 658 (EVAL_5:177)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-13.js'>ecma/Date/15.9.5.23-13.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-13 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 525 (EVAL_5:150)<br>
+called from Sub '@func_0' pc 327 (EVAL_5:88)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-17.js'>ecma/Date/15.9.5.23-17.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 554 (EVAL_5:154)<br>
+called from Sub '@func_0' pc 356 (EVAL_5:92)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-8.js'>ecma/Date/15.9.5.23-8.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-2 Date.prototype.setTime()<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 568 (EVAL_5:169)<br>
+called from Sub '@func_0' pc 392 (EVAL_5:107)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.2-4.js'>ecma/Date/15.9.3.2-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 Date( year, month, date, hours, minutes, seconds )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 1536 (EVAL_5:401)<br>
+called from Sub '@func_0' pc 716 (EVAL_5:192)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.1-5.js'>ecma/Date/15.9.3.1-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 new Date( year, month, date, hours, minutes, seconds, ms )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 1217 (EVAL_5:324)<br>
+called from Sub '@func_0' pc 716 (EVAL_5:190)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.6.js'>ecma/Date/15.9.5.6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.6 Date.prototype.getFullYear()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.3.2-1.js'>ecma/Date/15.9.3.2-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.3.1 Date( year, month, date, hours, minutes, seconds )<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 2071 (EVAL_5:527)<br>
+called from Sub '@func_0' pc 669 (EVAL_5:181)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-13.js'>ecma/Date/15.9.5.10-13.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 820 (EVAL_5:195)<br>
+called from Sub '@func_0' pc 281 (EVAL_5:78)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-12.js'>ecma/Date/15.9.5.10-12.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 826 (EVAL_5:197)<br>
+called from Sub '@func_0' pc 287 (EVAL_5:80)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.24-6.js'>ecma/Date/15.9.5.24-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.24-1 Date.prototype.setMilliseconds(ms)<br>
+PjsUndefined<br>
+TypeError: setMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 453 (EVAL_5:130)<br>
+called from Sub '@func_0' pc 304 (EVAL_5:81)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.11-5.js'>ecma/Date/15.9.5.11-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.11 Date.prototype.getUTCDate()<br>
+PjsUndefined<br>
+TypeError: getUTCDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.4-1.js'>ecma/Date/15.9.5.4-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.4-1 Date.prototype.getTime<br>
+PjsUndefined<br>
+TypeError: getTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 487 (EVAL_5:132)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.11-7.js'>ecma/Date/15.9.5.11-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.11 Date.prototype.getUTCDate()<br>
+PjsUndefined<br>
+TypeError: getUTCDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-4.js'>ecma/Date/15.9.5.13-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+PjsUndefined<br>
+TypeError: getUTCDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-8.js'>ecma/Date/15.9.5.21-8.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 223 (EVAL_5:67)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-9.js'>ecma/Date/15.9.5.10-9.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 826 (EVAL_5:197)<br>
+called from Sub '@func_0' pc 287 (EVAL_5:80)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.13-1.js'>ecma/Date/15.9.5.13-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.13 Date.prototype.getUTCDay()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.10-10.js'>ecma/Date/15.9.5.10-10.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.10 Date.prototype.getDate()<br>
+PjsUndefined<br>
+TypeError: getDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 820 (EVAL_5:195)<br>
+called from Sub '@func_0' pc 281 (EVAL_5:78)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-5.js'>ecma/Date/15.9.5.23-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-2 Date.prototype.setTime()<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 734 (EVAL_5:193)<br>
+called from Sub '@func_0' pc 392 (EVAL_5:107)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.11-4.js'>ecma/Date/15.9.5.11-4.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.11 Date.prototype.getUTCDate()<br>
+PjsUndefined<br>
+TypeError: getUTCDate is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 564 (EVAL_5:156)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.20.js'>ecma/Date/15.9.5.20.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.20 Date.prototype.getMilliseconds()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.12-8.js'>ecma/Date/15.9.5.12-8.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.12 Date.prototype.getDay()<br>
+PjsUndefined<br>
+TypeError: getDay is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0' pc 223 (EVAL_5:67)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.7.js'>ecma/Date/15.9.5.7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.7 Date.prototype.getUTCFullYear()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-15.js'>ecma/Date/15.9.5.23-15.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 514 (EVAL_5:146)<br>
+called from Sub '@func_0' pc 316 (EVAL_5:84)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-12.js'>ecma/Date/15.9.5.23-12.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 514 (EVAL_5:146)<br>
+called from Sub '@func_0' pc 316 (EVAL_5:84)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-7.js'>ecma/Date/15.9.5.23-7.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-2 Date.prototype.setTime()<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 734 (EVAL_5:193)<br>
+called from Sub '@func_0' pc 392 (EVAL_5:107)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.36-5.js'>ecma/Date/15.9.5.36-5.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.36-1 Date.prototype.setFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_5' pc 3847 (EVAL_5:780)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.37-2.js'>ecma/Date/15.9.5.37-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.37-1 Date.prototype.setUTCFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_32' pc 10517 (EVAL_3:3130)<br>
+called from Sub '@func_0_5' pc 4096 (EVAL_5:832)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.16.js'>ecma/Date/15.9.5.16.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 16777215<br>
+Testcase terminated with signal 255<br>
+Complete testcase output was:<br>
+15.9.5.16 Date.prototype.getMinutes()<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.36-2.js'>ecma/Date/15.9.5.36-2.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.36-2 Date.prototype.setFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_5' pc 3847 (EVAL_5:780)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.2.2-1.js'>ecma/Date/15.9.2.2-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt><br>
+Failure messages were:<br>
+Date(1970,0,1,0,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1969,11,31,15,59,59) = undefined FAILED! expected: [object Object]<br>
+Date(1969,11,31,16,0,0) = undefined FAILED! expected: [object Object]<br>
+Date(1969,11,31,16,0,1) = undefined FAILED! expected: [object Object]<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-18.js'>ecma/Date/15.9.5.23-18.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 536 (EVAL_5:149)<br>
+called from Sub '@func_0' pc 338 (EVAL_5:87)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.21-1.js'>ecma/Date/15.9.5.21-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.21 Date.prototype.getUTCMilliseconds()<br>
+PjsUndefined<br>
+TypeError: getUTCMilliseconds is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 379 (EVAL_5:115)<br>
+called from Sub '@func_0' pc 213 (EVAL_5:66)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.23-1.js'>ecma/Date/15.9.5.23-1.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.23-1 Date.prototype.setTime(time)<br>
+PjsUndefined<br>
+TypeError: setTime is not a function<br>
+current instr.: 'pjs_invoke_method' pc 887 (languages/pjs/lib/jscore_includes/pjsfunction.pir:135)<br>
+called from Sub '@func_0_0' pc 514 (EVAL_5:146)<br>
+called from Sub '@func_0' pc 316 (EVAL_5:84)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+<dd><b>Testcase <a target='other_window' href='http://lxr.mozilla.org/mozilla/source/js/tests/ecma/Date/15.9.5.36-6.js'>ecma/Date/15.9.5.36-6.js</a> failed</b> <br>
+ [ <a href='#tippy_top'>Top of Page</a> ]<br>
+<tt>Expected exit code 0, got 1<br>
+Testcase terminated with signal 0<br>
+Complete testcase output was:<br>
+15.9.5.36-1 Date.prototype.setFullYear(year [, mon [, date ]] )<br>
+ReferenceError: isNaN is not defined<br>
+current instr.: '@func_0_5' pc 3847 (EVAL_5:780)<br>
+called from Sub '@func_0' pc 318 (EVAL_5:82)<br>
+called from Sub '@main' pc 18 (EVAL_5:11)<br>
+called from Sub 'run_file' pc 312 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:124)<br>
+called from Sub 'main' pc 124 (/home/yavuz/parrot_svn/parrot/languages/pjs/pjs.pir:57)<br>
+</tt><br>
+</dl>
+[ <a href='#tippy_top'>Top of Page</a> | <a href='#fail_detail'>Top of Failures</a> ]<br>
+<hr>
+<a name='retest_list'></a>
+<h2>Retest List</h2><br>
+<pre>
+# Retest List, pjs, generated Thu Aug  9 21:21:56 2007.
+FAILURE: # Original test base was: ecma/Date/.
+FAILURE: # 150 of 150 test(s) were completed, 138 failures reported.
+FAILURE: Engine command line: pjs -f pjs_init.js <br>
+FAILURE: ecma/Date/15.9.5.js
+FAILURE: ecma/Date/15.9.5.21-7.js
+FAILURE: ecma/Date/15.9.5.13-3.js
+FAILURE: ecma/Date/15.9.5.24-1.js
+FAILURE: ecma/Date/15.9.5.10-6.js
+FAILURE: ecma/Date/15.9.5.11-2.js
+FAILURE: ecma/Date/15.9.5.21-6.js
+FAILURE: ecma/Date/15.9.5.27-1.js
+FAILURE: ecma/Date/15.9.3.8-2.js
+FAILURE: ecma/Date/15.9.5.24-4.js
+FAILURE: ecma/Date/15.9.2.2-2.js
+FAILURE: ecma/Date/15.9.2.2-3.js
+FAILURE: ecma/Date/15.9.5.13-7.js
+FAILURE: ecma/Date/15.9.3.8-1.js
+FAILURE: ecma/Date/15.9.5.24-8.js
+FAILURE: ecma/Date/15.9.5.31-1.js
+FAILURE: ecma/Date/15.9.5.37-5.js
+FAILURE: ecma/Date/15.9.5.8.js
+FAILURE: ecma/Date/15.9.3.2-3.js
+FAILURE: ecma/Date/15.9.5.12-2.js
+FAILURE: ecma/Date/15.9.2.2-4.js
+FAILURE: ecma/Date/15.9.5.2.js
+FAILURE: ecma/Date/15.9.5.23-11.js
+FAILURE: ecma/Date/15.9.3.8-5.js
+FAILURE: ecma/Date/15.9.5.26-1.js
+FAILURE: ecma/Date/15.9.5.24-7.js
+FAILURE: ecma/Date/15.9.5.10-11.js
+FAILURE: ecma/Date/15.9.5.15.js
+FAILURE: ecma/Date/15.9.5.37-1.js
+FAILURE: ecma/Date/15.9.5.23-6.js
+FAILURE: ecma/Date/15.9.4.2-1.js
+FAILURE: ecma/Date/15.9.5.10-3.js
+FAILURE: ecma/Date/15.9.5.12-7.js
+FAILURE: ecma/Date/15.9.5.23-4.js
+FAILURE: ecma/Date/15.9.5.36-7.js
+FAILURE: ecma/Date/15.9.5.21-2.js
+FAILURE: ecma/Date/15.9.5.19.js
+FAILURE: ecma/Date/15.9.5.35-1.js
+FAILURE: ecma/Date/15.9.5.14.js
+FAILURE: ecma/Date/15.9.5.10-8.js
+FAILURE: ecma/Date/15.9.3.8-3.js
+FAILURE: ecma/Date/15.9.5.30-1.js
+FAILURE: ecma/Date/15.9.5.36-3.js
+FAILURE: ecma/Date/15.9.5.34-1.js
+FAILURE: ecma/Date/15.9.5.23-10.js
+FAILURE: ecma/Date/15.9.5.18.js
+FAILURE: ecma/Date/15.9.5.37-3.js
+FAILURE: ecma/Date/15.9.5.28-1.js
+FAILURE: ecma/Date/15.9.5.12-5.js
+FAILURE: ecma/Date/15.9.5.23-16.js
+FAILURE: ecma/Date/15.9.2.2-5.js
+FAILURE: ecma/Date/15.9.5.9.js
+FAILURE: ecma/Date/15.9.5.2-2-n.js
+FAILURE: ecma/Date/15.9.5.33-1.js
+FAILURE: ecma/Date/15.9.2.1.js
+FAILURE: ecma/Date/15.9.5.3-1-n.js
+FAILURE: ecma/Date/15.9.3.1-3.js
+FAILURE: ecma/Date/15.9.5.21-3.js
+FAILURE: ecma/Date/15.9.5.13-2.js
+FAILURE: ecma/Date/15.9.5.36-4.js
+FAILURE: ecma/Date/15.9.5.36-1.js
+FAILURE: ecma/Date/15.9.5.24-5.js
+FAILURE: ecma/Date/15.9.5.37-4.js
+FAILURE: ecma/Date/15.9.1.1-2.js
+FAILURE: ecma/Date/15.9.5.17.js
+FAILURE: ecma/Date/15.9.5.10-7.js
+FAILURE: ecma/Date/15.9.5.3-2.js
+FAILURE: ecma/Date/15.9.3.1-2.js
+FAILURE: ecma/Date/15.9.5.12-4.js
+FAILURE: ecma/Date/15.9.5.29-1.js
+FAILURE: ecma/Date/15.9.5.13-5.js
+FAILURE: ecma/Date/15.9.5.13-8.js
+FAILURE: ecma/Date/15.9.5.10-5.js
+FAILURE: ecma/Date/15.9.5.23-2.js
+FAILURE: ecma/Date/15.9.5.11-1.js
+FAILURE: ecma/Date/15.9.3.1-1.js
+FAILURE: ecma/Date/15.9.5.21-5.js
+FAILURE: ecma/Date/15.9.5.12-6.js
+FAILURE: ecma/Date/15.9.5.11-6.js
+FAILURE: ecma/Date/15.9.4.3.js
+FAILURE: ecma/Date/15.9.5.24-2.js
+FAILURE: ecma/Date/15.9.5.10-4.js
+FAILURE: ecma/Date/15.9.5.10-1.js
+FAILURE: ecma/Date/15.9.3.1-4.js
+FAILURE: ecma/Date/15.9.5.11-3.js
+FAILURE: ecma/Date/15.9.5.10-2.js
+FAILURE: ecma/Date/15.9.5.32-1.js
+FAILURE: ecma/Date/15.9.5.24-3.js
+FAILURE: ecma/Date/15.9.3.8-4.js
+FAILURE: ecma/Date/15.9.2.2-6.js
+FAILURE: ecma/Date/15.9.4.2.js
+FAILURE: ecma/Date/15.9.5.23-9.js
+FAILURE: ecma/Date/15.9.5.12-3.js
+FAILURE: ecma/Date/15.9.5.2-1.js
+FAILURE: ecma/Date/15.9.5.12-1.js
+FAILURE: ecma/Date/15.9.1.1-1.js
+FAILURE: ecma/Date/15.9.5.25-1.js
+FAILURE: ecma/Date/15.9.5.13-6.js
+FAILURE: ecma/Date/15.9.5.5.js
+FAILURE: ecma/Date/15.9.5.23-14.js
+FAILURE: ecma/Date/15.9.5.21-4.js
+FAILURE: ecma/Date/15.9.3.2-5.js
+FAILURE: ecma/Date/15.9.3.2-2.js
+FAILURE: ecma/Date/15.9.5.23-13.js
+FAILURE: ecma/Date/15.9.5.23-17.js
+FAILURE: ecma/Date/15.9.5.23-8.js
+FAILURE: ecma/Date/15.9.3.2-4.js
+FAILURE: ecma/Date/15.9.3.1-5.js
+FAILURE: ecma/Date/15.9.5.6.js
+FAILURE: ecma/Date/15.9.3.2-1.js
+FAILURE: ecma/Date/15.9.5.10-13.js
+FAILURE: ecma/Date/15.9.5.10-12.js
+FAILURE: ecma/Date/15.9.5.24-6.js
+FAILURE: ecma/Date/15.9.5.11-5.js
+FAILURE: ecma/Date/15.9.5.4-1.js
+FAILURE: ecma/Date/15.9.5.11-7.js
+FAILURE: ecma/Date/15.9.5.13-4.js
+FAILURE: ecma/Date/15.9.5.21-8.js
+FAILURE: ecma/Date/15.9.5.10-9.js
+FAILURE: ecma/Date/15.9.5.13-1.js
+FAILURE: ecma/Date/15.9.5.10-10.js
+FAILURE: ecma/Date/15.9.5.23-5.js
+FAILURE: ecma/Date/15.9.5.11-4.js
+FAILURE: ecma/Date/15.9.5.20.js
+FAILURE: ecma/Date/15.9.5.12-8.js
+FAILURE: ecma/Date/15.9.5.7.js
+FAILURE: ecma/Date/15.9.5.23-15.js
+FAILURE: ecma/Date/15.9.5.23-12.js
+FAILURE: ecma/Date/15.9.5.23-7.js
+FAILURE: ecma/Date/15.9.5.36-5.js
+FAILURE: ecma/Date/15.9.5.37-2.js
+FAILURE: ecma/Date/15.9.5.16.js
+FAILURE: ecma/Date/15.9.5.36-2.js
+FAILURE: ecma/Date/15.9.2.2-1.js
+FAILURE: ecma/Date/15.9.5.23-18.js
+FAILURE: ecma/Date/15.9.5.21-1.js
+FAILURE: ecma/Date/15.9.5.23-1.js
+FAILURE: ecma/Date/15.9.5.36-6.js
+</pre>
+[ <a href='#tippy_top'>Top of Page</a> | <a href='#retest_list'>Top of Retest List</a> ]<br>
+</body>

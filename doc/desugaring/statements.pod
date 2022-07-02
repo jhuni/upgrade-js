@@ -1,0 +1,90 @@
+
+=head2 Switch Statements
+
+	switch( expr ) {
+		
+		case value1:
+			statements1;
+		case value2:
+			statements2;
+		default:
+			statements3;
+	}
+
+Equivalent:
+
+	if( value1 == expr ) {
+		statements1;
+	} else if( value2 == expr ) {
+		statements2;
+	} else {
+		statements3;
+	}
+
+
+=head2 Let Statements
+
+	let( statement1, statement2, ... ) block
+
+Equivalent:
+
+	(function(){
+	var statement;
+	var statement2;
+	
+	block
+	
+	})();
+
+=head2 Single Line Comments
+
+	// Comment1 
+	// Comment2
+	// Comment3
+	
+	// Comment1
+
+	statement1; // Comment1
+
+Equivalent:
+
+	/* Comment1
+	   Comment2
+	   Comment3 */
+	   
+	/* Comment1 */
+	
+	statement1; /* Comment1 */
+
+=head2 For Statement
+
+	for( statement1; conditional; statement2 ) block
+
+Equivalent:
+
+	(function(){
+	statement1;
+	while(conditional) {
+		block;
+		
+		statement2;
+	}
+	})();
+
+=head2 Function Statements
+
+	function(variable1, variable2, variable3) block
+
+Equivalent:
+
+	function(){
+		var variable1 = arguments[0];
+		var variable2 = arguments[1];
+		var variable3 = arguments[2];
+		arguments.callee.length = 3;
+		
+		block;
+		
+	}
+
+=head2 

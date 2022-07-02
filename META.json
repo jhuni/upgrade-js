@@ -1,0 +1,88 @@
+{
+
+	"resources" : {
+	  "license" : "http://creativecommons.org/licenses/publicdomain/"
+	},
+
+	"name": "MiniJS",
+	
+	"version": "1.8",
+	
+	"author": [
+		"Jhuni, <jhuni_x@yahoo.com>"
+	],
+	
+	"abstract": "This implements JavaScript functions normally implemented in web browsers such as Firefox.",
+	
+	"license": "Public Domain",
+	
+	"provides": {
+		"Array": {
+			"file": "./lib/Array.js"
+		},
+		
+		"Boolean": {
+			"file": "./lib/Boolean.js"
+		},
+		
+		"Date": {
+			"file": "./lib/Date.js"
+		},
+		
+		"Error": {
+			"file": "./lib/Error.js"
+		},
+		
+		"EvalError": {
+			"file": "./lib/EvalError.js"
+		},
+		
+		"Function": {
+			"file": "./lib/Function.js"
+		},
+		
+		"Math": {
+			"file": "./lib/Math.js"
+		},
+		
+		"Number": {
+			"file": "./lib/Number.js"
+		},
+		
+		"Object": {
+			"file": "./lib/Object.js"
+		},
+		
+		"RangeError": {
+			"file": "./lib/RangeError.js"
+		},
+		
+		"RegExp": {
+			"file": "./lib/RegExp.js"
+		},
+		
+		"String": {
+			"file": "./lib/String.js"
+		},
+		
+		"SyntaxError": {
+			"file": "./lib/SyntaxError.js"
+		},
+		
+		"TypeError": {
+			"file": "./lib/TypeError.js"
+		},
+		
+		"URIError": {
+			"file": "./lib/URIError.js"
+		}
+		
+	},
+	
+	"requires": [
+	],
+	
+	"build_requires": [
+	]
+
+}
