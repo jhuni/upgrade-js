@@ -1,0 +1,6 @@
+This library is an implementation of the Upgrade component of the JSAN JavaScript repository. This library implements Array, String, Boolean, Number, Error, and all the default EcmaScript objects. This library will hopefully seriously reduce the amount of work necessary to create a JavaScript engine. I am particularly hoping to use this on parrot.
+
+Advantages:
+- Tested in Firefox 3.0, Safari 4.0, Opera 9.0, and Internet Explorer 7.0
+- Currently runs a complete implementation of Array and of all features past JavaScript 1.4
+
